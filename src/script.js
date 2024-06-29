@@ -8,7 +8,7 @@ import { TextGeometry } from "three/addons/geometries/TextGeometry.js";
  * Base
  */
 // Debug
-const gui = new GUI();
+// const gui = new GUI();
 
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
@@ -115,7 +115,7 @@ const camera = new THREE.PerspectiveCamera(
 );
 camera.position.x = 1;
 camera.position.y = 1;
-camera.position.z = 2;
+camera.position.z = 3;
 scene.add(camera);
 
 // Controls
